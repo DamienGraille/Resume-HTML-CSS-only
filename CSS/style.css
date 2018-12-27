@@ -1,6 +1,51 @@
+#look {
+    color:rgb(255, 196, 0);
+  }
+
+/*header*/
 .header{
-    background-color:yellow;
+    background-color:grey;
 }
-.paragraphtitle{
+.title1{
     display:inline;
 }
+.title2{
+    display:inline;
+    color:black;
+}
+/*underline between title and text*/
+hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/*statement*/
+.subtitle1{
+    font-style: italic;
+    color:rgb(228, 228, 228);
+}
+
+/*info*/
+.info{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+
+/*skills*/
+.subtitle2{
+    font-style: italic;
+    font-weight: bold;
+    color:rgb(255, 196, 0);
+}
+.skills{
+    font-weight: bold;
+    color:rgb(255, 255, 255);    
+}
+
+
