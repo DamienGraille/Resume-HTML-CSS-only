@@ -50,6 +50,9 @@ hr {
 
 /*work experience*/
 /*title*/
+.workfont{
+    background-color:rgb(236, 236, 236);
+}
 .workexp{
     color:rgb(73, 73, 73);
 }
