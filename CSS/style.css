@@ -51,14 +51,14 @@ hr {
 /*work experience*/
 /*title*/
 .workfont{
-    background-color:rgb(236, 236, 236);
+    background-color:rgb(243, 243, 243);
 }
-.workexp{
-    color:rgb(73, 73, 73);
+.title3{
+    color:rgb(110, 110, 110);
 }
 
 /*company and work title*/
-.job{
+.jobproject{
     font-size: 100%;
     color:rgb(0, 162, 255);
 }
@@ -80,4 +80,5 @@ hr {
     font-size: 100%;
     color:black;
 }
+
 
