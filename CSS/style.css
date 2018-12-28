@@ -48,4 +48,33 @@ hr {
     color:rgb(255, 255, 255);    
 }
 
+/*work experience*/
+/*title*/
+.workexp{
+    color:rgb(73, 73, 73);
+}
+
+/*company and work title*/
+.job{
+    font-size: 100%;
+    color:rgb(0, 162, 255);
+}
+.period{
+    font-size: 100%;
+    font-style: italic;
+    color:grey;
+    display:inline; 
+}
+.location{
+    margin-right:50px;
+    float: right;
+    font-size: 100%;
+    font-style: italic;
+    color:grey;
+}
+
+.task{
+    font-size: 100%;
+    color:black;
+}
 
