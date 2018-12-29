@@ -57,8 +57,8 @@ hr {
     color:rgb(110, 110, 110);
 }
 
-/*company and work title*/
-.jobproject{
+/*company, work title, education*/
+.jobprojectschool{
     font-size: 100%;
     color:rgb(0, 162, 255);
 }
@@ -81,4 +81,11 @@ hr {
     color:black;
 }
 
+.degree{
+    color:black;
+}
 
+.subject{
+    color:black;
+    font-style: italic;
+}
