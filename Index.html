@@ -4,9 +4,11 @@
 <head>
         <meta charset="utf-8">
         <title>Resume</title>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAgCmLyquVk96dqXLy68qwbX8mAFR5ySP8&callback=initMap" async defer> 
+        </script>
         <link href="CSS/style.css" rel="stylesheet">
 </head>
-
+<!--https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap-->
 <body>
     <!-- header,statement,info, and skills-->
     <!-- header-->
@@ -96,14 +98,14 @@
             Projects
         </h1>
         <ul>
-            <div class="jobproject">Month End Close Process
+            <div class="jobprojectschool">Month End Close Process
             </div>
             <div class="period">2013-2015
             </div>
             <div class="task">Streamline/improve the month end close process to produce financial statements more efficiently 
             </div>
             &nbsp
-            <div class="jobproject">Parker Inter company business
+            <div class="jobprojectschool">Parker Inter company business
             </div>
             <div class="period">2013-2014
             </div>
@@ -117,14 +119,72 @@
             Education
         </h1>  
         <ul>
-            
+                <div class="jobprojectschool">Notre Dame du Grandchamp
+                </div>
+                <div class="period">2008-2010 
+                    <span class="degree" >
+                    --BTS
+                    </span>
+                    <span class="location">Versailles
+                    </span>
+                </div>
+                <div class="subject">Major: Comptabilite,Gestion des Organisations 
+                </div>
+                &nbsp
+                <div class="jobprojectschool">Canterbury Christ Church University
+                </div>
+                <div class="period">2010-2012 
+                    <span class="degree" >
+                        --BSc
+                    </span>
+                    <span class="location">Canterbury
+                    </span>
+                </div>
+                <div class="subject">Major: Accounting, Finance
+                </div>
+                &nbsp
+                <div class="jobprojectschool">Udacity
+                </div>
+                <div class="period">2016- 
+                    <span class="degree" >
+                        Javascript Basics
+                    </span>
+                </div>
         </ul>     
     </div>
 <!--map-->
     <div>
         <h1 class="title3">
             Where I have lived and worked
-        </h1>       
+        </h1> 
+        <div id="mapDiv"></div>
+        <script>
+            function initMap(){
+                var locLondon = {lat: 51.507351, lng: -0.127758};
+                var locLux = {lat: 49.815273, lng: 6.129583};
+                var locCant = {lat: 51.277260, lng: 1.080460};
+                var locVers = {lat: 48.802200, lng: 2.129680};
+                var locParis = {lat: 48.856613, lng: 2.352222};
+                var map = new google.maps.Map(document.getElementById("mapDiv"),{
+                    zoom: 5.5,
+                    center:locLondon
+            });
+            var markerLondon = new google.maps.Marker({position: locLondon, map: map, title:"London"});
+            var markerLux = new google.maps.Marker({position: locLux, map: map,title:"Luxembourg"});
+            var markerCant = new google.maps.Marker({position: locCant, map:map, title:"Canterbury"});
+            var markerVers = new google.maps.Marker({position: locVers, map: map, title:"Versailles"});
+            var markerParis = new google.maps.Marker({position: locParis, map: map, title:"Paris"});
+            
+            
+            /*var infowindowLondon = new google.maps.InfoWindow({
+            content: "London,UK"
+            });   
+
+            google.maps.event.addListener(marker, 'click', function() {
+            infoWindowLondon.open(map, markerLondon)
+            */   
+            }
+        </script>    
     </div>
 </body>
 
