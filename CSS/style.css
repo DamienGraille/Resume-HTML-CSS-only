@@ -97,3 +97,22 @@ hr {
     width: 100%;
     padding-bottom: 5%;
   }
+
+
+  /*footer*/
+  .footer{
+    background-color:rgb(110, 110, 110);
+  }
+  .footertext{
+      text-align: center;
+      background-color: #f5ae23
+  }
+
+  .flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
