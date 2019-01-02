@@ -1,17 +1,25 @@
 body {
+    padding: 0;
+    margin: 0;
     font-family: "Roboto", sans-serif
 }
 
 #look {
-    color: #f5ae23;;
+    color: #f5ae23;
   }
 
 /*header*/
 .header{
     background-color: #484848;
+    padding: 60px;
+    margin: 0px;
+    border: 0px;
+    
+
 }
 .title1{
     display:inline;
+    
 }
 .title2{
     display:inline;
@@ -56,14 +64,22 @@ hr {
 }
 .skills{
     font-weight: bold;
-    color:rgb(255, 255, 255);    
+    color:rgb(255, 255, 255);
+    line-height: 10%    
 }
 
 /*work experience*/
 /*title*/
 .workfont{
     background-color:#f3f3f3;
+    padding: 60px;
 }
+.workfont2{
+    padding: 60px;
+}
+
+
+
 .title3{
     color: #999;
 }
