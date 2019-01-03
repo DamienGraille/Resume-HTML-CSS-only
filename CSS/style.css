@@ -88,12 +88,14 @@ hr {
 .jobprojectschool{
     font-size: 100%;
     color:rgb(0, 162, 255);
+    margin-left: -40px;
 }
 .period{
     font-size: 100%;
     font-style: italic;
     color:grey;
-    display:inline; 
+    display:inline;
+    margin-left: -40px;
 }
 .location{
     margin-right:50px;
@@ -106,6 +108,7 @@ hr {
 .task{
     font-size: 100%;
     color: #333;
+    margin-left: -40px;
 }
 
 .degree{
