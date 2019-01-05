@@ -9,17 +9,19 @@ body {
   }
 
 /*header*/
+
 .header{
     background-color: #484848;
-    padding: 60px;
+    padding: 37px;
     margin: 0px;
     border: 0px;
-    
-
+    line-height: 140%;
 }
 .title1{
     display:inline;
-    
+    font-size: 40px;
+    margin: 0px;
+    padding: 00px;
 }
 .title2{
     display:inline;
@@ -40,7 +42,9 @@ hr {
 /*statement*/
 .subtitle1{
     font-style: italic;
+    font-size: 18px;
     color:rgb(228, 228, 228);
+    font-weight: normal;
 }
 
 /*info*/
