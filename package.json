@@ -1,0 +1,22 @@
+{
+  "name": "resume-html-css-only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Maptestinfo.js",
+  "scripts": {
+    "deploy": "gh-pages -d Resume-HTML-CSS-only"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienGraille/Resume-HTML-CSS-only.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamienGraille/Resume-HTML-CSS-only/issues"
+  },
+  "homepage": "https://github.com/DamienGraille/Resume-HTML-CSS-only#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
