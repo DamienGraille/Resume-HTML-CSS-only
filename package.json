@@ -4,7 +4,7 @@
   "description": "",
   "main": "Maptestinfo.js",
   "scripts": {
-    "deploy": "gh-pages -d Resume-HTML-CSS-only"
+    "deploy": "gh-pages -d Resume-HTML-CSS-onlynpm "
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/DamienGraille/Resume-HTML-CSS-only/issues"
   },
-  "homepage": "https://github.com/DamienGraille/Resume-HTML-CSS-only#readme",
+  "homepage": "https://damiengraille.github.io/Resume-HTML-CSS-only",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
