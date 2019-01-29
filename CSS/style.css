@@ -15,7 +15,7 @@ body {
     padding: 45px;
     margin: 0px;
     border: 0px;
-    line-height: 120%;
+    line-height: 40%;
 }
 
 .content{   
@@ -24,13 +24,13 @@ body {
     position: relative
 }
 .title1{
-    display:inline;
+    display:inline-block;
     font-size: 40px;
     margin: 0px;
     padding: 00px;
 }
 .title2{
-    display:inline;
+    display:inline-block;
     color:black;
 }
 /*underline between title and text*/
@@ -47,6 +47,7 @@ hr {
 
 /*statement*/
 .subtitle1{
+    display:inline-block;
     font-style: italic;
     font-size: 18px;
     color:rgb(228, 228, 228);
@@ -61,6 +62,8 @@ hr {
 
 .list{
     list-style-position: inside;
+    line-height: 110%;
+    
 }
 
 /*biopic*/
@@ -75,11 +78,13 @@ hr {
     font-style: italic;
     font-weight: bold;
     color: #f5ae23;
+    display:inline-block;
 }
 .skills{
     font-weight: bold;
     color:rgb(255, 255, 255);
-    line-height: 10%    
+    line-height: 10% 
+    display:inline-block;   
 }
 
 /*work experience*/
