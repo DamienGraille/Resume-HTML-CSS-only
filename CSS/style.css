@@ -1,7 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
+    line-height:100%;
 }
 
 #look {
@@ -15,7 +16,6 @@ body {
     padding: 45px;
     margin: 0px;
     border: 0px;
-    line-height: 40%;
 }
 
 .content{   
@@ -24,10 +24,11 @@ body {
     position: relative
 }
 .title1{
-    display:inline-block;
+    display:inline;
     font-size: 40px;
     margin: 0px;
     padding: 00px;
+    line-height:80%;
 }
 .title2{
     display:inline-block;
@@ -52,6 +53,7 @@ hr {
     font-size: 18px;
     color:rgb(228, 228, 228);
     font-weight: normal;
+    line-height: normal;
 }
 
 /*info*/
@@ -78,13 +80,14 @@ hr {
     font-style: italic;
     font-weight: bold;
     color: #f5ae23;
-    display:inline-block;
+    display:block;
 }
 .skills{
     font-weight: bold;
     color:rgb(255, 255, 255);
-    line-height: 10% 
-    display:inline-block;   
+    line-height: 10%;
+    display:inline-block;  
+    
 }
 
 /*work experience*/
