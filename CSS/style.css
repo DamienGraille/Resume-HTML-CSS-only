@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     line-height:100%;
+    
 }
 
 #look {
@@ -13,7 +14,7 @@ body {
 
 .header{
     background-color: #484848;
-    padding: 45px;
+    padding: 10px;
     margin: 0px;
     border: 0px;
 }
@@ -94,10 +95,10 @@ hr {
 /*title*/
 .workfont{
     background-color:#f3f3f3;
-    padding: 60px;
+    padding: 20px;
 }
 .workfont2{
-    padding: 60px;
+    padding: 20px;
 }
 
 
