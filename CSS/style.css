@@ -14,7 +14,7 @@ body {
 
 .header{
     background-color: #484848;
-    padding: 10px;
+    padding: 20px;
     margin: 0px;
     border: 0px;
 }
@@ -110,7 +110,8 @@ hr {
 
 .title4{
     color: #999;
-    margin-left:60px;
+    padding: 20px;
+    
     
 }
 
@@ -154,8 +155,8 @@ hr {
 
 /*map*/
 #mapDiv {
-    height: 300px;
-    width: 90%;
+    height: 350px;
+    width: 97%;
     padding-bottom: 5%;
     margin: auto;
   }
@@ -164,11 +165,13 @@ hr {
   /*footer*/
   .footer{
     background-color:rgb(110, 110, 110);
+    
   }
   .footertext{
       text-align: center;
       color: #999;
-      background-color: #f5ae23
+      background-color: #f5ae23;
+      padding: 10px;
   }
 
   .flex-box {
