@@ -55,6 +55,7 @@ hr {
     color:rgb(228, 228, 228);
     font-weight: normal;
     line-height: normal;
+    
 }
 
 /*info*/
@@ -64,9 +65,10 @@ hr {
 }
 
 .list{
-    list-style-position: inside;
-    line-height: 110%;
     
+    line-height: 110%; 
+    display:inline-block;
+    margin-left:20px;
 }
 
 /*biopic*/
