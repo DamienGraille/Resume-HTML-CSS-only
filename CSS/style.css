@@ -68,7 +68,9 @@ hr {
     
     line-height: 110%; 
     display:inline-block;
-    margin-left:20px;
+    width: 60%;
+    margin: auto;
+    padding-left: 15pt;
 }
 
 /*biopic*/
@@ -183,4 +185,12 @@ hr {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
+  }
+
+
+  @media only screen and (max-width: 415px) {  
+    .list{
+      width:80%;
+      
+    }
   }
