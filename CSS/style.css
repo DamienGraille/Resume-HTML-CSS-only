@@ -171,12 +171,19 @@ hr {
     background-color:rgb(110, 110, 110);
     
   }
+
+  .buttonstyle{
+    text-decoration:none;
+  }
+
   .footertext{
       text-align: center;
       color: #999;
       background-color: #f5ae23;
       padding: 10px;
+
   }
+
 
   .flex-box {
     display: -webkit-flex;
