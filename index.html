@@ -176,7 +176,29 @@
         <div id="mapDiv"></div>
         <script>
             function initMap(){
-                var locLondon = {lat: 51.507351, lng: -0.127758};
+
+                var map = new google.maps.Map(document.getElementById("mapDiv"),{
+            zoom: 5.5,
+            center:{lat: 51.507351, lng: -0.127758}
+            });
+
+                let locations = [
+            [London, 51.507351, -0.127758]
+            [Luxembourg, 49.611622, 6.131935]
+            [Canterbury, 51.277260, 1.080460]
+            [Versailles, 48.802200, 2.129680]
+            [Paris, 48.856613, 2.352222]
+            ];
+
+    
+            for (i = 0; i < locations.length; i++){
+            marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            title: new google.maps(location[i][0]),
+            map: map
+            })
+            }
+               /* var locLondon = {lat: 51.507351, lng: -0.127758};
                 var locLux = {lat: 49.611622, lng: 6.131935};
                 var locCant = {lat: 51.277260, lng: 1.080460};
                 var locVers = {lat: 48.802200, lng: 2.129680};
@@ -224,7 +246,7 @@
             markerParis.addListener('click', function() {
             infowindowParis.open(map, markerParis);
             });
-
+            */
           
             }
         </script>    
