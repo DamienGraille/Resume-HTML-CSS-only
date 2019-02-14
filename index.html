@@ -199,6 +199,19 @@
             map: map
             })
             }
+
+            let info = [
+                "London, UK", "Luxembourg City, Luxembourg","Canterbury, UK",
+              "Versailles, France", "Paris, France"
+            ]
+
+            for (i = 0; i < locations.length; i++){
+            var infowindow = new google.maps.InfoWindow({content: info[i]
+            })
+            marker.addListener('click', function() {
+            infowindow.open(map, marker);
+            });
+            }
                /* var locLondon = {lat: 51.507351, lng: -0.127758};
                 var locLux = {lat: 49.611622, lng: 6.131935};
                 var locCant = {lat: 51.277260, lng: 1.080460};
