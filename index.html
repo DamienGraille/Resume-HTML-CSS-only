@@ -183,35 +183,35 @@
             });
 
                 let locations = [
-            ['London', 51.507351, -0.127758],
-            ['Luxembourg', 49.611622, 6.131935],
-            ['Canterbury', 51.277260, 1.080460],
-            ['Versailles', 48.802200, 2.129680],
-            ['Paris', 48.856613, 2.352222]
+            ['London', 51.507351, -0.127758,"London, UK"],
+            ['Luxembourg', 49.611622, 6.131935, "Luxembourg City, Luxembourg"],
+            ['Canterbury', 51.277260, 1.080460, "Canterbury, UK"],
+            ['Versailles', 48.802200, 2.129680,"Versailles, France"],
+            ['Paris', 48.856613, 2.352222, "Paris, France"]
             ];
 
     
             for (i = 0; i < locations.length; i++){
-            var position = new google.maps.LatLng(locations[i][1], locations[i][2]),
+
+            let position = new google.maps.LatLng(locations[i][1], locations[i][2]);
+            
+            let infowindow = new google.maps.InfoWindow({content: locations[i][3]
+            });
+            
             marker = new google.maps.Marker({
             position: position,
             title: locations[i][0],
             map: map
-            })
-            }
-
-            let info = [
-                "London, UK", "Luxembourg City, Luxembourg","Canterbury, UK",
-              "Versailles, France", "Paris, France"
-            ]
-
-            for (i = 0; i < locations.length; i++){
-            var infowindow = new google.maps.InfoWindow({content: info[i]
-            })
+            });
+            
             marker.addListener('click', function() {
             infowindow.open(map, marker);
             });
+
+            console.log(infowindow)
             }
+
+
                /* var locLondon = {lat: 51.507351, lng: -0.127758};
                 var locLux = {lat: 49.611622, lng: 6.131935};
                 var locCant = {lat: 51.277260, lng: 1.080460};
